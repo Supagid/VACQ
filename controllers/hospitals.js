@@ -136,12 +136,12 @@ exports.deleteHospital= async (req,res,next)=>{
 //@desc    Get vaccine centers
 //@route   GET /api/v1/hospitals/vacCenters/
 //@access  Public
-exports.getVacCenters = (req,res,next) => {
-    vacCenter.getall((err, data) => {
-        if (err)
-            res.status(500).send({
-                message: err.message || "Some error occurred while retrieving Vaccine Centers."
-            });
-        else res.send(data);
-    });
-};
+// exports.getVacCenters = (req,res,next) => {
+//     vacCenter.getall((err, data) => {
+//         if (err)
+//             res.status(500).send({
+//                 message: err.message || "Some error occurred while retrieving Vaccine Centers."
+//             });
+//         else res.send(data);
+//     });
+// };

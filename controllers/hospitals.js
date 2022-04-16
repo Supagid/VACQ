@@ -1,6 +1,6 @@
 const { start } = require('repl');
 const Hospital = require('../models/Hospital');
-const vacCenter = require('../models/VacCenter')
+//const vacCenter = require('../models/VacCenter')
 
 //@desc    Get all hospitals
 //@route   GET /api/v1/hospitals

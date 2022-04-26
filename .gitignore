@@ -1,4 +1,6 @@
-# ignore all node_modules
-node_modules/*
-# ignore config file
-# config/config.env
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "serverless deploy"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +24,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.1",
     "mysql": "^2.18.1",
+    "serverless-http": "^3.0.1",
     "swagger-jsdoc": "^6.0.0",
     "swagger-ui-express": "^4.3.0",
     "xss-clean": "^0.1.1"
